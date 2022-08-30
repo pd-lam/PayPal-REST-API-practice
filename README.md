@@ -296,3 +296,7 @@ Trước khi bắt đầu code thì ta cần một vài yêu cầu sau:
         }
    ```
   ## B3: Trong file Views/PayPal, tạo 2 file SuccessView.cshtml FailureView.cshtml
+  ## B4: Chạy thử trên web
+  ## Một số lưu ý:
+  - Nhớ kiểm tra tài khoản của payer để kiểm tra xem số tiền có bị trừ chưa.
+  - Hiện tại project chỉ trả về SuccessView ngay trong lần giao dịch đầu tiên, những lần sau sẽ trả về FailureView và không còn trừ tiền nữa. Cái này chắc để hỏi lại thầy chứ không biết ngỏ :laughing: :laughing: :laughing: .
