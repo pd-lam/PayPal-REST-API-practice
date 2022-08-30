@@ -36,8 +36,8 @@ namespace PayPal_REST_API_practice_1.Controllers
                     // Creating a payment
                     // baseURL is the url on which paypal sendsback the data.
                     // So we have provided URL of this controller only
-                    string baseURI = Request.Url.Scheme + "://" 
-                        + Request.Url.Authority 
+                    string baseURI = Request.Url.Scheme + "://"
+                        + Request.Url.Authority
                         + "/Paypal/PaymentWithPayPal?";
 
                     //guid we are generating for storing the paymentID received in session
@@ -89,6 +89,32 @@ namespace PayPal_REST_API_practice_1.Controllers
                         return View("FailureView");
                     }
                 }
+
+                //string baseURI = Request.Url.Scheme + "://"
+                //    + Request.Url.Authority
+                //    + "/Paypal/PaymentWithPayPal?";
+
+                //var guid = Convert.ToString((new Random()).Next(100000));
+
+                //var createdPayment = this.CreatePayment(apiContext, baseURI + "guid=" + guid);
+
+                //var links = createdPayment.links.GetEnumerator();
+
+                //string paypalRedirectUrl = null;
+
+                //while (links.MoveNext())
+                //{
+                //    Links lnk = links.Current;
+
+                //    if (lnk.rel.ToLower().Trim().Equals("approval_url"))
+                //    {
+                //        paypalRedirectUrl = lnk.href;
+                //    }
+                //}
+
+                //Session.Add(guid, createdPayment.id);
+
+                //return Redirect(paypalRedirectUrl);
             }
             catch (Exception ex)
             {
