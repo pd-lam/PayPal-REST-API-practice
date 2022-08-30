@@ -295,4 +295,4 @@ Trước khi bắt đầu code thì ta cần một vài yêu cầu sau:
             return View("SuccessView");
         }
    ```
-  ## B3: Trong file Views/PayPal, tạo 2 file SuccessView.cshtml FailuresView.cshtml
+  ## B3: Trong file Views/PayPal, tạo 2 file SuccessView.cshtml FailureView.cshtml
