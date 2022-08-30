@@ -5,7 +5,8 @@ Bài thực hành đầu tiên của môn học Thương mại điện tử [Lin
 Trước khi bắt đầu làm bài, ta cần thực hiện được các yêu cầu sau:
 - Đăng ký một tài khoản PayPal và tạo một tài khoản dành cho nhà phát triển [Link đăng ký tại đây](https://developer.paypal.com).
 - Có được ClientId và ClientSecretKey [Link hướng dẫn](https://www.tucalendi.com/en/s/integrations/how-to-get-live-paypal-client-id-and-secret-key-171).
-	- Đăng ký một tài khoản PayPal và tạo một tài khoản dành cho nhà phát triển
+- Đăng ký một tài khoản PayPal và tạo một tài khoản dành cho nhà phát triển
+
 ##**2. Bắt đầu vào thực hành**
 B1: Tạo và cấu hình ban đầu cho project:
 - Tạo một ASP.Net MVC project.
